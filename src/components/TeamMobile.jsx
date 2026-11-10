@@ -31,7 +31,7 @@ export default function TeamMobile(){
                 </div>
                 <div className='flex flex-row items-center justify-end gap-3.5 -mt-10 w-full'>
                     <div>
-                        <p className='font-noto font-semibold text-body text-right'>Soy</p>
+                        <p className='font-noto font-semibold text-body text-right'>Soyeong</p>
                         <p className='font-noto font-light text-body text-right'>Project Manager & Designer</p>
                     </div>
                     <img className='w-58' src={soyMobile}/>

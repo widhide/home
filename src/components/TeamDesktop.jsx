@@ -20,8 +20,8 @@ export default function TeamDesktop(){
                     <p className='font-noto text-secondary font-light text-center text-[1.6vw] lg:text-[24px]'>Full Stack Engineer</p>
                 </div>
                 <div className='w-[30%] flex flex-col items-center'>
-                    <img src={soyImg} alt='Soy' className='w-full h-[24vw] max-h-[340px] object-contain mb-5'/>
-                    <p className='font-chivo text-primary text-[1.8vw] lg:text-2xl tracking-wider'>Soy</p>
+                    <img src={soyImg} alt='Soyeong' className='w-full h-[24vw] max-h-[340px] object-contain mb-5'/>
+                    <p className='font-chivo text-primary text-[1.8vw] lg:text-2xl tracking-wider'>Soyeong</p>
                     <p className='font-noto text-secondary font-light text-center text-[1.6vw] lg:text-[24px]'>Project Manager<br></br>
                     & Designer</p>
                 </div>
