@@ -1,23 +1,11 @@
 import '../index.css'
-import logo from '/assets/Codibara-Logo.png';
+import logo from '/assets/Codibara-Logo.webp';
 
 import { ChevronDoubleDown } from 'react-bootstrap-icons';
 
-import { useEffect } from 'react';
-import { Link, useLocation } from "react-router-dom";
+import SectionLink from './UI/SectionLink';
 
 export default function Banner(){
-    const location = useLocation();
-    useEffect(() => {
-        // When location changes, check for hash and scroll to the corresponding element
-        if (location.hash) {
-            const element = document.getElementById(location.hash.substring(1));
-            if (element) {
-                element.scrollIntoView({ behavior: "smooth", block: "start" });
-            }
-        }
-    }, [location]);
-
     return(
         <>
          <div className='grid-background relative h-svh flex flex-col justify-center items-center'>
@@ -27,12 +15,12 @@ export default function Banner(){
                 alt='codibara logo'
             />
             <div className='absolute bottom-6 flex flex-col items-center'>
-                <Link to='#about'>
+                <SectionLink to='about'>
                     <p className='font-chivo text-subcolor inline-block mb-4.5 border-b md:text-xl'>Explore</p>
-                </Link>
-                <Link to='#about' className='animate-bounce'>
+                </SectionLink>
+                <SectionLink to='about' className='animate-bounce' aria-label='Scroll to About'>
                     <ChevronDoubleDown color='rgba(206,91,22,1)' size={24}/>
-                </Link>
+                </SectionLink>
             </div>
          </div>
         

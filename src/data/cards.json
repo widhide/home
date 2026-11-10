@@ -9,7 +9,7 @@
       "A matching platform for real knowledge and stories"
     ],
     "awardName": "Silicon Valley Startup Ideathon",
-    "image": "./assets/thumbnail-thul.png",
+    "image": "./assets/thumbnail-thul.webp",
     "awardlink" : "https://www.newsprime.co.kr/news/article/?no=609556"
   },
   {
@@ -21,7 +21,7 @@
       "Helps you remember, record, and remind",
       "A smart app that makes everyday life memorable"
     ],
-    "image": "./assets/thumbnail-cavy.png",
+    "image": "./assets/thumbnail-cavy.webp",
     "awardName": "Low-code App Competition",
     "link": "https://cavy.app.flextudio.com",
     "awardlink" : "https://flextudio.com/blog/archives/2652"
@@ -35,7 +35,7 @@
       "Clean, Card-Style Layout for Easy Browsing",
       "Direct Link to Each Instagram Account for Quick Access"
     ],
-    "image": "./assets/thumbnail-bori.png",
+    "image": "./assets/thumbnail-bori.webp",
     "link" : "https://bori.codibara.com/"
   },
   {
@@ -46,6 +46,6 @@
       "For anyone who wants to spice up the party",
       "Easy rules, fun games — all in one place"
     ],
-    "image": "./assets/thumbnail-RG.png"
+    "image": "./assets/thumbnail-RG.webp"
   }
 ]
