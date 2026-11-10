@@ -1,6 +1,7 @@
 import '../../index.css'
+import { Link } from 'react-router-dom';
 
-import logo from '/assets/Footer-image.png';
+import logo from '/assets/Footer-image.webp';
 
 export default function Footer(){
     return(
@@ -10,11 +11,13 @@ export default function Footer(){
                     <img 
                         src={logo}
                         className='pt-8'
+                        alt='Codibara'
+                        loading='lazy'
                     />
                 </div>
                 <div className='w-full flex flex-col md:flex-row items-center md:items-start md:justify-between gap-3 font-noto text-subcolor py-5'>
                     <div className='flex flex-col items-center md:items-end gap-3'>
-                        <a onClick={() => window.open("#/policy", "_blank")}className='underline md:text-xl'>Policy</a>
+                        <Link to='/policy' target='_blank' rel='noopener noreferrer' className='underline md:text-xl'>Policy</Link>
                         <a className="hover:text-primary md:text-xl" href='mailto:Codibara.info@gmail.com<'>Codibara.info@gmail.com</a>
                     </div>
                     <p className='font-noto text-xs md:-order-1 md:text-xl'>&copy;CodiBara All rights reserved.</p>

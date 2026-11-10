@@ -10,6 +10,8 @@ export default function Card({ image, title, subtitle, description, link, awardN
                 <img
                     className='w-full aspect-square object-cover object-top md:w-5/12 lg:w-[350px]' 
                     src={image}
+                    alt={`${title} preview`}
+                    loading='lazy'
                 />
                 <div className={`relative flex flex-col fl items-end gap-8 p-12 lg:pt-12 ${link ? 'lg:pb-8' : 'lg:pb-12'} lg:px-14 bg-[#fff] overflow-hidden w-full`}>
                     {awardName && (

@@ -1,7 +1,7 @@
 import '../index.css'
-import joshuaMobile from '/assets/Joshua-mobile.png';
-import soyMobile from '/assets/Soy-mobile.png';
-import kooMobile from '/assets/Tony-mobile.png';
+import joshuaMobile from '/assets/Joshua-mobile.webp';
+import soyMobile from '/assets/Soy-mobile.webp';
+import kooMobile from '/assets/Tony-mobile.webp';
 
 
 export default function TeamMobile(){
@@ -20,10 +20,10 @@ export default function TeamMobile(){
                         <p className='font-noto font-semibold text-body text-right'>Joshua</p>
                         <p className='font-noto font-light text-body'>Product Owner</p>
                     </div>
-                    <img className='w-54' src={joshuaMobile}/>
+                    <img className='w-54' src={joshuaMobile} alt='Joshua' loading='lazy'/>
                 </div>
                 <div className='flex flex-row items-center gap-3.5 -mt-10 w-full'>
-                    <img className='w-60' src={kooMobile}/>
+                    <img className='w-60' src={kooMobile} alt='Koo' loading='lazy'/>
                     <div>
                         <p className='font-noto font-semibold text-body'>Koo</p>
                         <p className='font-noto font-light text-body'>Full Stack Engineer</p>
@@ -34,7 +34,7 @@ export default function TeamMobile(){
                         <p className='font-noto font-semibold text-body text-right'>Soyeong</p>
                         <p className='font-noto font-light text-body text-right'>Project Manager & Designer</p>
                     </div>
-                    <img className='w-58' src={soyMobile}/>
+                    <img className='w-58' src={soyMobile} alt='Soyeong' loading='lazy'/>
                 </div>
                 <div className='flex flex-col items-center font-noto'>
                     <p className='text-primary'>·</p>

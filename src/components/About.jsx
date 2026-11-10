@@ -1,7 +1,7 @@
 import '../index.css'
 
-import mobileAboutTeam from '/assets/mobile-about-team.png'
-import membersWeb from '/assets/members-web.png'
+import mobileAboutTeam from '/assets/mobile-about-team.webp'
+import membersWeb from '/assets/members-web.webp'
 
 export default function About(){
     return(
@@ -14,10 +14,14 @@ export default function About(){
                 <img 
                     className='mb-9 md:hidden'
                     src={mobileAboutTeam}
+                    alt='Codibara team of capybara characters'
+                    loading='lazy'
                 />
                 <img 
                     className='w-6/12 max-w-[725px] md:order-4 hidden md:block'
                     src={membersWeb}
+                    alt='Codibara team of capybara characters'
+                    loading='lazy'
                 />
                 <div className='flex flex-col items-center lg:items-start gap-9'>
                     <p className='font-noto text-secondary text-sm md:text-xl w-2/3 max-w-96 md:w-80 lg:w-96'>
